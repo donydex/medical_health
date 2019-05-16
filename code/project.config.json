@@ -12,7 +12,7 @@
 		"autoAudits": false
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.6.6",
+	"libVersion": "2.7.0",
 	"appid": "wxea04f43d0e59aad7",
 	"projectname": "ch1-4",
 	"debugOptions": {

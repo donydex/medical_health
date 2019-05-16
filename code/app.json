@@ -1,21 +1,32 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/detail/detail"
+    "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#4abb3b",
-    "navigationBarTitleText": "医疗小助手",
-    "backgroundColor": "#f8f8f8",
-    "navigationBarTextStyle": "white"
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
   },
-  "netWorkTimeout": {
-    "request": 10000,
-    "connectSocket": 10000,
-    "uploadFile": 10000,
-    "downloadFile": 10000
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/2.png",
+        "iconPath": "images/2.png",
+        "pagePath": "pages/index/index",
+        "text": "健康"
+      },
+      {
+        "selectedIconPath": "images/4.png",
+        "iconPath": "images/4.png",
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      }
+    ]
   },
-  "debug": true,
   "sitemapLocation": "sitemap.json"
 }
